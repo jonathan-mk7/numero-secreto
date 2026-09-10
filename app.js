@@ -1,4 +1,6 @@
 
+/*
+
 alert ("bienvenidos a mi juego");  //alerta de bienvenida al juego
 
 let numeroSecreto=8 //declaracion de variable del numero secreto
@@ -16,7 +18,16 @@ if (numeroSecreto == numeroUsuario) {   // condicion
 alert ("sigue intentando");             // para mostrar en ventana emergente
 }
 
+*/
 
+
+let dia = prompt("¿que dia de la semana es?");
+if (dia==="sabado"|| dia ==="domingo"){
+    alert ("buen fin de semana");
+
+}else{
+    alert("buena semana");
+}
 
 
 
