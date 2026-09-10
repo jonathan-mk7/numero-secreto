@@ -1,24 +1,27 @@
 
-alert ("bienvenidos a mi juego");
+alert ("bienvenidos a mi juego");  //alerta de bienvenida al juego
 
-let numeroSecreto=7
+let numeroSecreto=8 //declaracion de variable del numero secreto
 
-let numeroUsuario=prompt("ingresa un numero del 1 al 10");
+let numeroUsuario=prompt("ingresa un numero del 1 al 10"); //variable para pedir al usuario un numero y guardarlo en (numeroUsuario)
 
-console.log(numeroUsuario);
+console.log(numeroUsuario); // muestra resultados en la consola
 
-// inicia condicion 
+// inicia condicion (codigo para realizar comparacion)
 
-if (numeroSecreto == numeroUsuario) {
-    alert ("acertaste");
+if (numeroSecreto == numeroUsuario) {   // condicion 
+    //la condicion es verdadera
+    alert (`acertaste, el numero secreto es: ${numeroSecreto}`);                // para mostrar en ventana emergente si se cumplio la condicion 
+} else{                                 // condicion ( si no) es falsa la condicion
+alert ("sigue intentando");             // para mostrar en ventana emergente
 }
-alert ("sigue intentando");
+
 
 
 
 
 /*
-
+practicas
 //condicion de calificaciones
 
 
